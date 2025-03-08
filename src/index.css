@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "ARMY RUST";
+  src: url("../src/Font/ARMY\ RUST.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PatuaOne-Regular";
+  src: url("../src/Font/PatuaOne-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --FirstColor: #4c5637;
+  --SecondColor: #a4b465;
+  --ThirdColor: #faf8eb;
+}
+
+/* .swiper-pagination {
+  position: absolute;
+  bottom: 
+  20px !important;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 500;
+} */
+
+.First {
+  color: var(--FirstColor);
+}
+.First1 {
+  color: var(--FirstColor);
+}
+
+.First1:hover {
+  color: var(--SecondColor);
+}
+
+.Second {
+  color: var(--SecondColor);
+}
+
+.Third {
+  color: var(--ThirdColor);
+}
+
+.bg_First {
+  background-color: var(--FirstColor);
+}
+
+.bg_Second {
+  background-color: var(--SecondColor);
+}
+
+.bg_Third {
+  background-color: var(--ThirdColor);
+}
+
+.custom-font {
+  font-family: "ARMY RUST", sans-serif;
+}
+.custom-font1 {
+  font-family: "PatuaOne-Regular", sans-serif;
+}
